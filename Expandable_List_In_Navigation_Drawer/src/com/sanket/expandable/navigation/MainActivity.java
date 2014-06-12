@@ -103,48 +103,43 @@ public class MainActivity extends Activity {
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("By Fragrance");
-		listDataHeader.add("By Category");
-		listDataHeader.add("By Product Type");
-		listDataHeader.add("By Brand");
+		listDataHeader.add("Header 1");
+		listDataHeader.add("Header 2");
+		listDataHeader.add("Header 3");
+	
 
 		// Adding child data
 		List<String> Fragrance = new ArrayList<String>();
-		Fragrance.add("Floral");
-		Fragrance.add("Herbal");
-		Fragrance.add("Woody");
-		Fragrance.add("Perfumy");
-		Fragrance.add("sweet");
-		Fragrance.add("Natural");
+		Fragrance.add("Item 1");
+		Fragrance.add("Item 2");
+		Fragrance.add("Item 3");
+		Fragrance.add("Item 4");
+		Fragrance.add("Item 5");
+		Fragrance.add("Item 6");
+		
 		
 
 		List<String> Category = new ArrayList<String>();
-		Category.add("Regular Masala Series");
-		Category.add("Premium Series");
-		Category.add("Classic Masala");
-		Category.add("3G Collection");
-		Category.add("Big Pouch Series");
-		Category.add("Premium Masala Series");
-		Category.add("Regular Series");
-		Category.add("Good Morning Series");
-		Category.add("Long Aggarbatti Series");
-		Category.add("Wooden Aggarbatti Stand");
+		Category.add("Item A");
+		Category.add("Item b");
+		Category.add("Item c");
+		Category.add("Item d");
+		Category.add("Item e");
+		Category.add("Item f");
+		Category.add("Item g");
+		
 
 		List<String> Type = new ArrayList<String>();
-		Type.add("Machine Crafted Perfumed Sticks");
-		Type.add("Hand rolled Masala Sticks");
-		Type.add("Economy + Quality");
+		Type.add("Hello !");
+		Type.add("Vola Amigo !");
+		Type.add("Kem cho  ");
 		
-		List<String> Brand = new ArrayList<String>();
-		Brand.add("Shree Krishna Parnami");
-		Brand.add("Feel Good");
-		Brand.add("Nijanand Darshan");
-		Brand.add("Suverna");
+	
 		
 
 		listDataChild.put(listDataHeader.get(0), Fragrance); // Header, Child data
 		listDataChild.put(listDataHeader.get(1), Category);
 		listDataChild.put(listDataHeader.get(2),Type );
-		listDataChild.put(listDataHeader.get(3),Brand );
+	
 	}
 }
